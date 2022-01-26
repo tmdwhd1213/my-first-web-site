@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            #grid{
+                border: 5px solid pink;
+                display: grid;
+                grid-template-columns: 150px 1fr;   /*150px 할당하고 나머지 1:1비율로 프레임을 가짐.*/
+            }
+            div{
+                border: 5px solid gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="grid">
+            <div>NAVIGATION</div>   <!--block level element-->
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorem qui doloremque ipsum modi ipsam fugiat laudantium voluptas consectetur reprehenderit quasi ab illo blanditiis, temporibus perferendis nemo. Consectetur, amet asperiores.</div>
+            <!--<span>inline element</span>-->
+        </div>
+    </body>
+</html>
